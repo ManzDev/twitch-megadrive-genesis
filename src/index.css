@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "NiseMegadriveEU";
+  src:
+    url("/fonts/nise-megadrive-eu.woff2") format("woff2"),
+    url("/fonts/nise-megadrive-eu.woff") format("woff"),
+    url("/fonts/nise-megadrive-eu.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NiseSegaNet";
+  src:
+    url("/fonts/nise-sega-net.woff2") format("woff2"),
+    url("/fonts/nise-sega-net.woff") format("woff"),
+    url("/fonts/nise-sega-net.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NiseSega";
+  src:
+    url("/fonts/nise-sega.woff2") format("woff2"),
+    url("/fonts/nise-sega.woff") format("woff"),
+    url("/fonts/nise-sega.ttf") format("truetype");
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #333366;
+  background: #000;
+  background-image:
+    radial-gradient(ellipse, #0000 20%, #0004 40%, #000 65%),
+    repeating-linear-gradient(to bottom, transparent 0 75px, #555 75px 76px),
+    repeating-linear-gradient(to right, transparent 0 75px, #555 75px 76px),
+    radial-gradient(ellipse 500px 600px at 50% 60%, #143071, transparent),
+    radial-gradient(circle 300px at 40% 40%, #8e1765, transparent);
+
+  animation: move 2.5s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0 0, -75px -75px, -75px -75px, 0 0, 0 0;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8em;
+}
