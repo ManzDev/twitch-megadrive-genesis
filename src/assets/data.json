@@ -1,0 +1,73 @@
+[
+  {
+    "dom": [
+      "megadrive-console",
+      "mega-drive"
+    ],
+    "title": "Mega Drive / Génesis",
+    "description": "El recorte exterior de la consola se crea utilizando `clip-path`.",
+    "link": "https://youtu.be/3J1fEXK8w8Q?t=6780s"
+  },
+  {
+    "dom": [
+      "megadrive-console",
+      "ventilation-grill"
+    ],
+    "title": "Rejilla de ventilación",
+    "description": "La rejilla de ventilación de la consola se crea utilizando un sistema de maquetación `grid`.",
+    "link": "https://youtu.be/3J1fEXK8w8Q?t=9480s"
+  },
+  {
+    "dom": [
+      "megadrive-console",
+      "mega-drive",
+      "mega-core"
+    ],
+    "title": "Núcleo superior",
+    "description": "La zona circular de la consola se basa en varias estrategias. La más llamativa es la de utilizar dos `radial-gradient` recortados.",
+    "link": "https://youtu.be/3J1fEXK8w8Q?t=11340s"
+  },
+  {
+    "dom": [
+      "megadrive-console",
+      "mega-drive",
+      "mega-core",
+      ".slot"
+    ],
+    "title": "Slot de cartucho",
+    "description": "El slot de cartuchos de la Mega Drive está construido en base a varios `box-shadow` y pseudoelementos `::before` y `::after`.",
+    "link": "https://youtu.be/3J1fEXK8w8Q?t=11630s"
+  },
+  {
+    "dom": [
+      "megadrive-console",
+      "mega-drive",
+      "mega-core",
+      ".square"
+    ],
+    "title": "Indicador de encendido",
+    "description": "El LED se enciende al pulsar el botón de la consola enviando un evento personalizado.",
+    "link": "https://youtu.be/3J1fEXK8w8Q?t=11820s"
+  },
+  {
+    "dom": [
+      "megadrive-console",
+      "mega-drive",
+      "mega-base"
+    ],
+    "title": "Base de la consola",
+    "description": "Usamos varias tipografías, entre las que se encuentran **Nise Megadrive**, **Nise Sega.net** y **Nise Sega**.",
+    "link": "https://youtu.be/3J1fEXK8w8Q?t=16200s"
+  },
+  {
+    "dom": [
+      "megadrive-console",
+      "mega-drive",
+      "mega-base",
+      "mega-controls"
+    ],
+    "title": "Controles",
+    "description": "Por acá tenemos los controles de volumen, encendido y reset de la consola ¡Puedes presionarlos, son interactivos!",
+    "link": "https://youtu.be/3J1fEXK8w8Q?t=17340s"
+  }
+]

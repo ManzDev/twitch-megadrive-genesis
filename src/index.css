@@ -1,4 +1,11 @@
 @font-face {
+  font-family: "Montserrat";
+  src:
+    url("fonts/montserrat-vf.woff2") format("woff2"),
+    url("fonts/montserrat-vf.woff") format("woff");
+}
+
+@font-face {
   font-family: "NiseMegadriveEU";
   src:
     url("/fonts/nise-megadrive-eu.woff2") format("woff2"),
@@ -55,4 +62,52 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 8em;
+}
+
+.info-text {
+  font-family: "Montserrat";
+  font-variation-settings: "wght" 600;
+  border: 1px solid #eee;
+  padding: 30px;
+  max-width: 350px;
+  margin-left: 3em;
+  background: linear-gradient(#0002, #000c);
+  transition: opacity 2s;
+  opacity: 0;
+}
+
+.info-text h1 {
+  margin: 0;
+  color: #eee;
+}
+
+.info-text p {
+  color: #bbb;
+}
+
+.info-text code {
+  font-size: 1.25rem;
+  color: #cc1;
+}
+
+.info-text a {
+  display: inline-block;
+  background: transparent;
+  color: var(--color, #fff);
+  border: 1px solid var(--color, #fff);
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 1em;
+}
+
+.info-text a:hover {
+  --color: #a00;
+
+  background: var(--color, #fff);
+  box-shadow: 0 0 15px 2px #a00;
+  color: #000;
+}
+
+.info-text strong {
+  color: #85f;
 }
